@@ -14,7 +14,6 @@ class Solution {
                 j--; 
             }
         }
-
         return max;
     }
 }
