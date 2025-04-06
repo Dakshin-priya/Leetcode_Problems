@@ -3,7 +3,6 @@ class Solution {
         int i = 0;
         int j = height.length - 1;
         int max = 0;
-
         while (i < j) {
             int b = Math.min(height[i], height[j]); 
             int l = j - i;
