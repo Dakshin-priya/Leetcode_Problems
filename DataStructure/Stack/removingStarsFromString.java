@@ -5,7 +5,6 @@ class Solution {
         // Create a Stack to hold characters and a StringBuilder for the result
         Stack<Character> stack = new Stack<>();
         StringBuilder sb = new StringBuilder();
-
         // Loop through each character of the string
         for (char ch : s.toCharArray()) {
             if (ch == '*') {
