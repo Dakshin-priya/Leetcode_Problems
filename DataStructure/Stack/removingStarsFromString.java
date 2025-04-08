@@ -21,7 +21,6 @@ class Solution {
         while (!stack.isEmpty()) {
             sb.append(stack.pop());
         }
-        
         // Since we added characters to StringBuilder in reverse order, reverse the string
         return sb.reverse().toString();
     }
