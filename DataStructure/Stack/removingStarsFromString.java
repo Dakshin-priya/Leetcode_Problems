@@ -17,7 +17,6 @@ class Solution {
                 stack.push(ch);
             }
         }
-        
         // Build the result string from the characters left in the stack
         while (!stack.isEmpty()) {
             sb.append(stack.pop());
