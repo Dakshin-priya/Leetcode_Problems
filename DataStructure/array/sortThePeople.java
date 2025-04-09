@@ -10,6 +10,7 @@ class Solution {
                 names[j+1]=names[j];
                 j--;
             }
+            
             height[j + 1] = key1;
             names[j+1]=key2;
         }
