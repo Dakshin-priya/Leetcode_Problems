@@ -12,7 +12,6 @@ class Solution {
     {
         return (a == '(' && b==')') || ( a=='{' && b=='}') || (a=='[' && b==']');
     }
-    
     public boolean isValid(String st) {
         Stack<Character> s=new Stack<>();
         char[]h= st.toCharArray();
