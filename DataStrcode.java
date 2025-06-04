@@ -30,7 +30,6 @@ class Solution {
                     else s.pop();
                 }
             }
-
         }
         return s.isEmpty();
     }
