@@ -17,7 +17,6 @@ class Solution {
         char[]h= st.toCharArray();
         for(char a: h)
         {
-
             if(open(a))
                 s.push(a);
             else if(close(a))
